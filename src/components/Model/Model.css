@@ -1,0 +1,27 @@
+.model-container {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.model {
+  border-radius: 5px;
+  padding: 0 2rem 1rem;
+  background-color: white;
+  width: 20em;
+}
+
+.icon_edit {
+  position: absolute;
+  right: -2.5rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #64748b;
+}

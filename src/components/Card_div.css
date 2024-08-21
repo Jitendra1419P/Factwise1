@@ -1,0 +1,66 @@
+.body_div {
+  width: 100%;
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.body_div.activ {
+  display: block;
+}
+
+.icon {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #64748b;
+  transition: all 0.5s ease-in-out;
+}
+
+.icon.font-semibold {
+  rotate: 180deg;
+}
+
+.bdy_div .info_div {
+  width: 100%;
+}
+.info_div .age,
+.info_div .gender,
+.info_div .country {
+  font-size: 13px;
+  display: grid;
+  gap: 2px;
+  font-weight: 500;
+}
+
+.info_div .age span,
+.info_div .gender span,
+.info_div .country span {
+  font-size: 13.5px;
+  color: rgba(128, 128, 128, 0.9);
+}
+
+.description {
+  font-size: 13px;
+  display: grid;
+  gap: 2px;
+  font-weight: 500;
+  text-align: justify-left;
+}
+
+.description span {
+  font-size: 13.5px;
+  color: rgba(128, 128, 128, 0.9);
+}
+
+.edit_div button {
+  margin-left: 0.5rem;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.edit_div .delete_icon {
+  color: rgba(255, 0, 0, 0.538);
+}
+
+.edit_div .edit_icon {
+  color: rgba(0, 8, 255, 0.512);
+}
